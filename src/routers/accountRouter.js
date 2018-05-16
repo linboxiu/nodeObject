@@ -10,6 +10,13 @@ accountRouter.get("/login",accountControl.getloginpage)
 accountRouter.get("/vcode",accountControl.getVcodeImg)
 accountRouter.get("/register",accountControl.getregisterpage)
 
+
+accountRouter.post("/register",accountControl.getregister)
+accountRouter.post("/login",accountControl.getlogin)
+
+
+
+
 module.exports=accountRouter
 
 

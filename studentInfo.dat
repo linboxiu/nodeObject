@@ -1,0 +1,4 @@
+{"_id":{"$oid":"595b52b807ac9e989149adcc"},"name":"刘德华","age":50,"sex":"男","phone":"13812345678","address":"香港九龙","introduction":"我是刘德华"}
+{"_id":{"$oid":"595b535007ac9e989149addf"},"name":"郭富城","age":50,"sex":"男","phone":"13666666666","address":"香港尖沙咀","introduction":"我是郭天王"}
+{"_id":{"$oid":"595b548507ac9e989149ae15"},"name":"陈小春","age":"36","sex":"男","phone":"13811111111","address":"香港铜锣湾","introduction":"我是山鸡，我是铜锣湾扛把子"}
+{"_id":{"$oid":"595f3ee73c7e262c08057835"},"name":"黎明","age":"39","sex":"男","phone":"1386666666","address":"香港新界","introduction":"我是黎明"}
