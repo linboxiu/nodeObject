@@ -6,7 +6,7 @@ const captchapng=require("captchapng")
  * 暴露的返回登录页面的方法
  */
 
-exports.getpage=(req,res)=>{
+exports.getloginpage=(req,res)=>{
 
   res.sendFile(path.join(__dirname,"../statics/views/login.html"))
 
@@ -28,4 +28,8 @@ exports.getVcodeImg=(req,res)=>{
   });
   res.end(imgbase64);
 
+}
+
+exports.getregisterpage=(req,res)=>{
+  res.sendFile(path.join(__dirname,"../statics/views/register.html"))
 }
